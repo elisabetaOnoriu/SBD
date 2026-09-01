@@ -1,0 +1,7 @@
+-- TEST DOCTOR - operatie permisa
+SELECT *
+FROM MED_APP_ADMIN.CONSULTATIONS;
+
+-- TEST DOCTOR - operatie nepermisa
+DELETE FROM MED_APP_ADMIN.PATIENTS
+WHERE patient_id = 1;
